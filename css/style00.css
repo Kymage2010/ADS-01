@@ -566,4 +566,10 @@ position: absolute;
     border-radius: 6px;
     align-items: center;
     margin: 0.25rem;
+    line-height: 0.875rem;
+}
+.tag_s .tag span img{
+    /*! width: 2rem; */
+    /*! height: 2rem; */
+    max-width: inherit;
 }
