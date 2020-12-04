@@ -1,0 +1,15 @@
+@charset "utf-8";
+.content #aside_left {
+	
+	width: 25%;
+}
+
+.content main {
+	background: blue;
+	width: 75%;
+}
+
+#aside_right {
+	
+	width: 100%;
+}

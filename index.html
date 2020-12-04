@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ADS</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/style00.css" rel="stylesheet" type="text/css">
+    <!-- подключаем иконочный шрифт Material icons 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- подключаем jquery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <div class="item">
+                <div class="box" id="logo"><img src="images/ADS.svg" alt="ADS" /></div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="icon"><img src="images/icon-swot.svg" alt="SWOT" /></div> <a href="#">SWOT-анализ</a> </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="icon"><img src="images/icon-way.svg" alt="Каналы продаж" /></div> <a href="#">Каналы продаж</a> </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="icon"><img src="images/icon-map.svg" alt="Карта продаж" /></div> <a href="#">Карта продаж</a> </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="icon"><img src="images/icon-analitics.svg" alt="Аналитика" /></div> <a href="#">Аналитика</a> </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <div class="user">
+                        <div class="icon"><img src="images/icon-user.svg" alt="User" /></div>
+                        <div class="user name">Константинопольский И.О.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Навигация -->
+    <div class="date_s">
+        <div class="wrap">
+            <div class="date_select">
+                <div class="box">
+                    <div class="title">
+                        <h1>Период</h1> </div>
+                    <input class="input_date" type="text" id="start" value="18.09.2019">
+                    <label for="start"><img src="images/icon-date.svg" alt="Дата" /></label>
+                    <input class="input_date" type="text" id="end" value="01.12.2019">
+                    <label for="end"><img src="images/icon-date.svg" alt="Дата" /></label>
+                </div>
+                <div class="date_preselect">
+                    <div class="box">
+                        <div class="button">Месяц</div>
+                    </div>
+                </div>
+                <div class="date_preselect">
+                    <div class="box">
+                        <div class="button active">Квартал</div>
+                    </div>
+                </div>
+                <div class="date_preselect">
+                    <div class="box">
+                        <div class="button">Год</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- оснвоное поле -->
+    <div class="content">
+        <div class="wrap">
+            <main>
+                <section class="screen_01">
+                    <div class="table" id="data_01">
+                        <div class="box">
+                            <div class="title">
+                                <h1>Товарные группы</h1> </div>
+                        </div>
+						
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*47)/47">47</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Очищающие средства</div>
+                                </div>
+                            </div>
+						<!-- -->
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*33)/47">33</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Пилинг</div>
+                                </div>
+                            </div>
+						<!-- -->
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*31)/47">31</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Мезотерапия</div>
+                                </div>
+                            </div>
+						<!-- -->
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*28)/47">28</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Биоревитализация</div>
+                                </div>
+                            </div>
+						<!-- -->
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*27)/47">27</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Филлеры</div>
+                                </div>
+                            </div>
+						<!-- -->
+						<!-- -->
+						<div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*26)/47">26</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Бутолинотерапия</div>
+                                </div>
+                            </div>
+						<!-- -->
+                    </div>
+                    <div class="table" id="data_02">
+                        <div class="box">
+                            <div class="title">
+                                <h1>Теги</h1>
+                                <div class="icon"><img src="images/icon-add.svg" alt="Выбрать теги" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table" id="data_03">
+                        <div class="col_01">
+                            <div class="box">
+                                <div class="title">
+                                    <h1>Товарные группы</h1>
+                                    <div class="icon"><img src="images/icon-sorting.svg" alt="Сортировать" /></div>
+                                </div>
+                            </div>
+						
+							
+							
+							
+                        </div>
+                        <div class="col_02">
+                            <div class="box">
+                                <div class="title">
+                                    <h1>Маржинальность</h1>
+                                    <div class="icon"><img src="images/icon-sorting.svg" alt="Сортировать" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_03">
+                            <div class="box">
+                                <div class="title">
+                                    <h1>LTV</h1>
+                                    <div class="icon"><img src="images/icon-sorting.svg" alt="Сортировать" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_04">
+                            <div class="box">
+                                <div class="title">
+                                    <h1>Узнаваемость</h1>
+                                    <div class="icon"><img src="images/icon-sorting.svg" alt="Сортировать" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+	<!-- НАЧАЛО строки для сортировки -->
+                        <div class="row_data">
+                            <!-- -->
+                            <div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*4)/4">4</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Очищающие средства</div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_02">
+                                <div class="box">
+                                    <div class="value">
+                                        <div class="value_01">97,1</div>
+                                        <div class="value_02">-0.12%<img src="images/icon-arr-down.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*97.1)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_03">
+                                <div class="box">
+								
+								<div class="value">
+                                        <div class="value_01">12</div>
+                                        <div class="value_02">+3шт.<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    
+								
+								</div>
+                            </div>
+                            <!-- -->
+                            <div class="col_04">
+                                <div class="box">
+								<div class="value">
+                                        <div class="value_01">76</div>
+                                        <div class="value_02">+0.32%<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*76)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+								</div>
+                            </div>
+                        </div>
+         <!-- КОНЕЦ строки для сортировки -->
+						
+                        <div class="row_data">
+                            <!-- -->
+                            <div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*3)/4">3</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Пилинг</div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_02">
+                                <div class="box">
+                                    <div class="value">
+                                        <div class="value_01">28.5</div>
+                                        <div class="value_02">-0.12%<img src="images/icon-arr-down.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*28.5)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_03">
+                                <div class="box">
+								
+								<div class="value">
+                                        <div class="value_01">12</div>
+                                        <div class="value_02">+7шт.<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    
+								
+								</div>
+                            </div>
+                            <!-- -->
+                            <div class="col_04">
+                                <div class="box">
+								<div class="value">
+                                        <div class="value_01">53</div>
+                                        <div class="value_02">+0.32%<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*53)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+								</div>
+                            </div>
+                        </div>
+						
+						
+						<div class="row_data">
+                            <!-- -->
+                            <div class="col_01">
+                                <div class="box">
+                                    <div class="bar"><span> </span>
+                                        <div class="volume" style="width: calc((100%*1)/4">1</div>
+                                        <!-- Формула: (100% * значение) / max_значение -->
+                                    </div>
+                                    <div class="name">Биоревитализация</div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_02">
+                                <div class="box">
+                                    <div class="value">
+                                        <div class="value_01">37,4</div>
+                                        <div class="value_02">-0.12%<img src="images/icon-arr-down.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*37.4)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -->
+                            <div class="col_03">
+                                <div class="box">
+								
+								<div class="value">
+                                        <div class="value_01">12</div>
+                                        <div class="value_02">+1шт.<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    
+								
+								</div>
+                            </div>
+                            <!-- -->
+                            <div class="col_04">
+                                <div class="box">
+								<div class="value">
+                                        <div class="value_01">8</div>
+                                        <div class="value_02">+0.32%<img src="images/icon-arr-up.svg" alt=""/></div>
+                                    </div>
+                                    <div class="v_bar"><span> </span>
+                                        <div class="volume" style="height: calc((100%*8)/100"></div>
+										<!-- Формула: (100% * значение) / 100 -->
+                                    </div>
+								</div>
+                            </div>
+                        </div>
+						
+						
+                    </div>
+                </section>
+				
+				
+				<!-- конец первого экрана -->
+				
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <div class="box"> </div>
+        </div>
+    </footer>
+</body>
+
+</html>
