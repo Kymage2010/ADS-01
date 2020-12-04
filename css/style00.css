@@ -568,8 +568,9 @@ position: absolute;
     margin: 0.25rem;
     line-height: 0.875rem;
 }
-.tag_s .tag span img{
+.tag_s .tag span img, .icon img{
     /*! width: 2rem; */
     /*! height: 2rem; */
     max-width: inherit;
+    cursor: pointer;
 }
