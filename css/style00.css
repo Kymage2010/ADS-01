@@ -212,6 +212,7 @@ header .item .user {
     display: flex;
     align-items: center;
     color: var(--white);
+    line-height: 1rem;
 }
 
 header .wrap {
